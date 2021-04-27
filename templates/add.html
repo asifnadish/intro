@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+<h1>Welcome to second page </h1>
+{% endblock %}
+
+{% block body %}
+    <p>
+        Although most paragraphs should have a topic sentence, there are a few situations when a paragraph might not need a
+        topic sentence. For example, you might be able to omit a topic sentence in a paragraph that narrates a series of events,
+        if a paragraph continues developing an idea that you introduced (with a topic sentence) in the previous paragraph, or if
+        all the sentences and details in a paragraph clearly refer—perhaps indirectly—to a main point. The vast majority of your
+        paragraphs, however, should have a topic sentence.
+    </p>
+    <a href="{{ url_for('index') }}"> Goto to first page </a>
+
+
+{% endblock %}
